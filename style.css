@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+button {
+  background-color: #f7f5f5;
+  color: purple;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin-down: 200px;
+  margin-right: 300px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #e8e6e6;
+}
+
+/* Welcome Page Styles */
+.welcome-page {
+  background-image: url('soulsync.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.welcome-container {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Introduction Page Styles */
+.intro-page {
+  background-image: url('Welcome.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.intro-container {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Mood Selection Page Styles */
+.mood-page {
+  background-image: url('mood.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.mood-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.image-row img{
+  margin-top: 60px;
+  margin-right: 50px;
+  width: 120px;
+}
+
+.mood-img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Artist Selection Page Styles */
+.artist-page {
+  background-image: url('artist.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.artist-container input {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 100;
+}
+
+.artist-container button {
+  margin-top: 20px;
+}
+
