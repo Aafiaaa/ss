@@ -1,120 +1,87 @@
 /* General Styles */
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  overflow-x: hidden;
-}
-
-button {
-  background-color: #f7f5f5;
-  color: purple;
-  border: none;
-  border-radius: 50px;
-  padding: 15px 30px;
-  cursor: pointer;
-  margin-down: 200px;
-  margin-right: 300px;
-  font-weight: bold;
-}
-
-button:hover {
-  background-color: #e8e6e6;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1db954; /* Spotify Green */
+    color: white;
 }
 
 /* Welcome Page Styles */
-.welcome-page {
-  background-image: url('soulsync.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+.welcome-page .welcome-container {
+    text-align: center;
+    padding: 20px;
 }
 
-.welcome-container {
-  margin-right: 20px;
-  margin-bottom: 20px;
+.welcome-page .continue-btn {
+    background-color: #1db954;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
-/* Introduction Page Styles */
-.intro-page {
-  background-image: url('Welcome.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+.welcome-page .login-btn {
+    background-color: #1db954;
+    border: none;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 30px;
 }
 
-.intro-container {
-  margin-right: 20px;
-  margin-bottom: 20px;
+/* Mood Page Styles */
+.mood-page .mood-container {
+    text-align: center;
+    padding: 30px;
+    background-color: #222222;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Mood Selection Page Styles */
-.mood-page {
-  background-image: url('mood.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
+.mood-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
-.mood-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+.mood-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
 
-.image-row {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-.image-row img{
-  margin-top: 60px;
-  margin-right: 50px;
-  width: 120px;
-}
-
-.mood-img {
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  cursor: pointer;
+.mood-btn {
+    background-color: #1db954;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-/* Artist Selection Page Styles */
-.artist-page {
-  background-image: url('artist.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.mood-btn:hover {
+    background-color: #1ed760;
 }
 
-.artist-container input {
-  display: block;
-  margin: 10px;
-  padding: 10px;
-  width: 250px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  margin-right: 100;
+.generate-btn {
+    background-color: #1db954;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.artist-container button {
-  margin-top: 20px;
+.generate-btn:hover {
+    background-color: #1ed760;
 }
-
